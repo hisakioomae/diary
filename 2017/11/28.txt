@@ -1,9 +1,8 @@
-# .gitignoreの反映
-git rm -r --cached .
-git add .
-git commit -m ".gitignore is now working"
-git push origin master
+# 概要
+脳波分析に関する手法のお勉強
 
-# 機械学習
-単純パーセプトロンの実装
-~/PycharmProjects/Perceptron
+## FLDA(Fisher Linear Discriminant Analysis)
+参考：
+http://s0sem0y.hatenablog.com/entry/2016/08/07/054847
+- 教師あり学習
+- 次元圧縮
