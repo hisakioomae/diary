@@ -1,0 +1,4 @@
+# AtomのMarkdownのプレビュー機能
+[control] + [shift] + [M]
+- 参考：
+https://qiita.com/cuisinehelt/items/1cc44618c43e42492c10
