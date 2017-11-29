@@ -2,13 +2,14 @@
 日々の日記をつける．技術的なこと日常のこと．メモなど...
 
 # 崇拝
-Jetbrains製の統合開発環境
+- Jetbrains製の統合開発環境
+- Java
 
 # 興味
 - Android開発技術
 - (iOS開発技術)
 - JavaにおけるWebアプリケーション開発(Spring Framework)
-- 機械学習，深層学習
+- 機械学習，深層学習，多変量解析
 - Kotlin
 
 # タスク
