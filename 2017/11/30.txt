@@ -1,1 +1,16 @@
+# 前処理
+正規化方法は主に4つ存在する
+Pythonではじめる機械学習P129参考
 
+- StandardScaler
+  - 平均0分散１
+  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+- RobustScaler
+  - 中央値と四分位数を使用
+  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html
+- MinMaxScaler
+  - 0から1になるように正規化
+  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+- Normalizer
+  - 特徴ベクトルのユークリッド長1になるように変換
+  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Normalizer.html#sklearn.preprocessing.Normalizer
