@@ -13,4 +13,4 @@ Pythonではじめる機械学習P129参考
   - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
 - Normalizer
   - 特徴ベクトルのユークリッド長1になるように変換
-  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Normalizer.html#sklearn.preprocessing.Normalizer
+  - http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Normalizer.html
