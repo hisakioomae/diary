@@ -1,0 +1,4 @@
+# AndroidのProgressBarについて
+- http://www.geeks.gallery/horizontal-and-circular-progress-bar-in-android/
+
+円のProgressbarと水平のProgressbarが存在する
