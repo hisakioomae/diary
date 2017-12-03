@@ -1,0 +1,31 @@
+# 応用情報技術者問題を解いた
+
+## 通信アクセス制御は主に2つ存在する．
+1. CSMA/CD
+2. CSMA/CA
+
+1のCDはCollusion Detection．衝突検知．有線LANの方式．  
+2のCAはCollusion Avoidance．衝突回避．無線LANの方式．送信中の衝突は検知できないのであらかじめ避ける．  
+
+## アクセスの応答やらなんやら(フレーム伝送に関して)
+1. ACK(Acknowledgement)：肯定応答
+2. ENQ(Enquiry)：問い合わせ
+3. SYN(Synchronous idle)：同期信号
+
+なお，受信したフレームに伝送誤りないことを確認するために，フレームの最後の4バイトのFCS(Feame Check Sequence)フィールドのCRC(Cyclic Redundancy Check)による検査を行い，誤りがなければフレームが正常であると判断する．
+
+## 無線LAN規格(一般常識)
+| 規格 | 周波数帯 | 最大通信速度 |
+|:-----------:|:------------:|:------------:|
+| IEEE802.11a | 5GHz | 54Mbps |
+| IEEE802.11b | 2.4GHz | 11Mbps |
+| IEEE802.11g | 2.4GHz | 54Mbps |
+| IEEE802.11n | 5GHz/2.4Hz | 600Mbps |
+| IEEE802.11c | 5GHz | 6.9Gbps |
+
+- 2.4GHz
+  - デメリット：電子レンジなどの家電製品やBluetoothの電波干渉を受けやすい
+  - メリット：障害物に強い
+- 5Ghz
+  - デメリット：障害物に弱い
+  - メリット：電子レンジなどの家電製品やBluetoothの電波干渉を受けにくい
